@@ -6,7 +6,7 @@
 
 int main()
 {
-    std::cout << "Design Patterns based on the UDEMY course!\n"; 
+    std::cout << "Design Patterns based on the UDEMY course!!\n"; 
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

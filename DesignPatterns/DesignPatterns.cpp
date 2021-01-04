@@ -3,13 +3,23 @@
 
 #include "pch.h"
 #include <iostream>
+#include <vector>
+#include <algorithm>
+
+void print(int v) {
+	std::cout << v << std::endl;
+}
 
 int main()
 {
     std::cout << "Design Patterns based on the UDEMY course!!!\n"; 
 
+	std::vector<int> int_vector{ 1,2,3,4,45,5,6,5 };
 
-	return EXIT_FAILURE;
+	std::for_each(int_vector.begin(), int_vector.end(), print);
+
+
+	return EXIT_SUCCESS;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

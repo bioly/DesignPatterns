@@ -2,9 +2,11 @@
 //
 
 #include "pch.h"
+#include "ProperMemoryMngTech.h"
 #include <iostream>
 #include <vector>
 #include <algorithm>
+
 
 void print(int v) {
 	std::cout << v << std::endl;
@@ -12,11 +14,8 @@ void print(int v) {
 
 int main()
 {
-    std::cout << "Design Patterns based on the UDEMY course!!!\n"; 
-
-	std::vector<int> int_vector{ 1,2,3,4,45,5,6,5 };
-
-	std::for_each(int_vector.begin(), int_vector.end(), print);
+    
+	ProperMemoryMngTech::exec_example_one();
 
 
 	return EXIT_SUCCESS;
